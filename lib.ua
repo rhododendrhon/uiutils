@@ -34,12 +34,9 @@ Inv ← ÷⊃(
   ≡(≡(Det⍜⊙⍉▽)⊙¤ ⊙▽⟜⊢)⊙¤
   ⍉×¬×₂◿₂+⊃⇡▽:¤⇡.⧻. ≡⌝↻⇡⧻.
 )
-# Rotate image clockwise
-# (first two dimensions)
-# ? rotations image
-Spin ← ⍜⊙≡₂□ ⨬(∘|≡⇌⍉|⇌≡⇌|⍉≡⇌)◿₄
 # Matrix multiplication
 # AxB ? B A
+# (⌝) multiply with inverse
 Mult ← ⌅(≡/+×¤|≡/+×¤Inv)
 # Identity matrix
 I ← ⊞=.⇡
@@ -47,6 +44,7 @@ I ← ⊞=.⇡
 O ← ↯⟜⊚
 # Vector to diagonal matrix
 Diag ← ×I⧻.
+
 # Divisors (including self, unsigned)
 Divs ← ◴⊂:⇌⤚÷ ▽=₀◡◿ +₁⇡⌊⊸√⌵
 # Greatest common divisor
@@ -55,10 +53,22 @@ GCD ← ◌⍢⤚◿≠₀
 LCM ← ×÷⊃GCD∩⌵
 # First numbers of Fibonacci sequence
 Fib ← ⇌⍥(⊂+⊸⊢₂):[1 0]
+# Split integer into digits
+# (°) join digits
+Digi ← ≡⋕⍉¤°⋕
+
 # Square striped flag 
 # (horizontal)
 # ? size colours
 Flag ← ▽÷⧻,⟜≡▽⊙⍜⍉¤
+# Rotate image clockwise
+# (first two dimensions)
+# ? rotations image
+Spin ← ⍜⊙≡₂□ ⨬(∘|≡⇌⍉|⇌≡⇌|⍉≡⇌)◿₄
+# Pad image/array
+# ? fill amounts target
+# (fill matches pixel size)
+Pad ← ⬚∘(⌝↘¯⟜⌝↘)
 
 ┌─╴test
   ⍤"Matrix operations"≍⁅₉Mult⟜Inv⤚+I ⟜(⌈×₉⊞⋅⋅⚂ .⇡) 6
