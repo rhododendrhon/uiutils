@@ -30,4 +30,5 @@ Also contains a (by no means comprehensive) list of country flag colours as [two
 `DK.ua` contains an implementation for direct kinematics using the [Denavit-Hartenberg](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters) matrix. It was designed for industrial robots, but it should work just as well for any kinematic chain or mechanism. (inverse kinematics are currently on the to-do list)
 
 ![DH parameter diagram for a robot arm](./DirectKinematics/IRB6700.png)
+
 *Illustration of DH parameters for an ABB IRB 6700-175/3.05 robot*
