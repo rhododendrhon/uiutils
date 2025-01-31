@@ -71,5 +71,16 @@ Spin ← ⍜⊙≡₂□ ⨬(∘|≡⇌⍉|⇌≡⇌|⍉≡⇌)◿₄
 Pad ← ⬚∘(⌝↘¯⟜⌝↘)
 
 ┌─╴test
-  ⍤"Matrix operations"≍⁅₉Mult⟜Inv⤚+I ⟜(⌈×₉⊞⋅⋅⚂ .⇡) 6
+  ⍤"Matrix inversion"≍ ⁅₉Mult⟜Inv⤚+I ⟜(⌈×₉⊞⋅⋅⚂ .⇡) 6
+  ⍤"Identity matrix"≍ I3 [1_0_0 0_1_0 0_0_1]
+  ⍤"Zero matrix"≍ O3 [0_0_0 0_0_0 0_0_0]
+  ⍤"Diagonal matrix"≍ Diag⇡3 [0_0_0 0_1_0 0_0_2]
+  ⍤"Divisors"≍ Divs 128 [1 2 4 8 16 32 64 128]
+  ⍤"GCD/LCM"≍ LCM 106 2244 118932
+  ⍤"Fibonacci"≍ Fib 5 [0 1 1 2 3 5 8]
+  ⍤"Digits"≍ Digi 1234 [1 2 3 4]
+  ⍤"unDigits"≍ °Digi [0 3 1 0] 310
+  ⍤"Spinning"≍ Spin3⊸Spin1 Logo
+  ⍤"Padding"≍ Pad 1 1_1 [[0]] [1_1_1 1_0_1 1_1_1]
+  ⍤"Flag"≍ Flag 3 0 O3
 └─╴
