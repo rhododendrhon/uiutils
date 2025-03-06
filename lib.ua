@@ -86,3 +86,6 @@ Pad ← ⬚∘(⌝↘¯⟜⌝↘)
   ⍤"Padding"≍ Pad 1 1_1 [[0]] [1_1_1 1_0_1 1_1_1]
   ⍤"Flag"≍ Flag 3 0 O3
 └─╴
+
+# Import with:
+# ~ "git: github.com/rhododendrhon/uiutils"
