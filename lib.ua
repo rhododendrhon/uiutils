@@ -1,23 +1,25 @@
 # Constants:
 
-# Belgium flag colours
-BE ← ÷255[45_41_38 255_205_0 200_16_46]
-# Bulgaria flag colours
-BG ← ÷255[255_255_255 0_150_110 214_38_18]
-# Germany flag colours
-DE ← ÷255[0_0_0 221_0_0 255_204_0]
-# France flag colours
-FR ← ÷255[0_0_145 255_255_255 255_0_15]
-# Italy flag colours
-IT ← ÷255[0_140_69 244_249_255 205_33_42]
-# The Netherlands flag colours
-NL ← ÷255[200_16_46 255_255_255 0_61_165]
-# Poland flag colours
-PL ← ÷255[220_20_60 255_255_255]
-# Romania flag colours
-RO ← ÷255[0_43_127 252_209_22 206_17_38]
-# Ukraine flag colours
-UA ← ÷255[0_87_183 255_221_0]
+┌─╴Flags
+  # Belgium flag colours
+  BE ← ÷255[45_41_38 255_205_0 200_16_46]
+  # Bulgaria flag colours
+  BG ← ÷255[255_255_255 0_150_110 214_38_18]
+  # Germany flag colours
+  DE ← ÷255[0_0_0 221_0_0 255_204_0]
+  # France flag colours
+  FR ← ÷255[0_0_145 255_255_255 255_0_15]
+  # Italy flag colours
+  IT ← ÷255[0_140_69 244_249_255 205_33_42]
+  # The Netherlands flag colours
+  NL ← ÷255[200_16_46 255_255_255 0_61_165]
+  # Poland flag colours
+  PL ← ÷255[220_20_60 255_255_255]
+  # Romania flag colours
+  RO ← ÷255[0_43_127 252_209_22 206_17_38]
+  # Ukraine flag colours
+  UA ← ÷255[0_87_183 255_221_0]
+└─╴
 
 # Functions:
 
@@ -60,7 +62,7 @@ Digi ← ≡⋕⍉¤°⋕
 # Square striped flag 
 # (horizontal)
 # ? size colours
-Flag ← ▽÷⧻,⟜≡▽⊙⍜⍉¤
+Flag ← ▽÷:⊙⊸⧻⟜≡▽⊙⍜⍉¤
 # Rotate image clockwise
 # (first two dimensions)
 # ? rotations image
