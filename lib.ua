@@ -62,7 +62,7 @@ Digi ← ≡⋕⍉¤°⋕
 # Square striped flag 
 # (horizontal)
 # ? size colours
-Flag ← ▽÷⧻,⟜≡▽⊙⍜⍉¤
+Flag ← ▽÷:⊙⊸⧻⟜≡▽⊙⍜⍉¤
 # Rotate image clockwise
 # (first two dimensions)
 # ? rotations image
